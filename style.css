@@ -1,0 +1,225 @@
+* {
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s all;
+    font-family: System;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    position: fixed;
+    min-height: 50px;
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+
+.backdrop {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+/* #hellointroVId {
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+nav {
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.752);
+    border-bottom: solid 1px #222;
+    backdrop-filter: blur(20px);
+    position: fixed;
+}
+
+.navcontent {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.navcontent ion-icon {
+    color: #e0ffd1;
+    font-size: 22px;
+    transform: translateY(2px);
+}
+
+.navtext h1 {
+    color: #e0ffd1;
+    font-weight: 400;
+}
+
+.navtext strong {
+    font-family: SysThai;
+    font-weight: 400;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.slider hr {
+    width: 190px;
+    margin: 0 auto;
+    border: solid 1.5px #e0ffd1;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    margin-top: 0.8rem;
+}
+
+.slider p {
+    animation: TopTO 2.5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+    color: #e0ffd1;
+    text-align: center;
+    font-family: MiSans;
+}
+
+@keyframes TopTO {
+    0% {
+        margin: 1.2rem 0px;
+    }
+    50% {
+        margin: 2rem 0px;
+    }
+    100% {
+        margin: 0;
+    }
+}
+
+/* content */
+
+.headcontent {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headcontent h1 {
+    font-family: Thonburi;
+    color: #d2ffd1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.headcontent ion-icon {
+    color: #d2ffd1;
+    font-size: 100px;
+    margin-bottom: 1.2rem;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 1.2s all;
+}
+
+.headcontent ion-icon:active {
+    scale: 50%;
+}
+
+.bgLeave {
+    background: url(./img/Illus3.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 6%;
+    position: fixed;
+}
+
+#HeartVide {
+    width: 100%;
+    height: 100vh;
+}
+
+.GiftContent {
+    background-color: #000;
+    display: none;
+}
+
+.homeContent {
+    width: 100%;
+    height: 100vh
+}
+
+.introduce {
+    background-color: #e7e0d2;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.introduce img {
+    width: 100%;
+    height: 360px;
+    margin-top: 2rem;
+    object-fit: cover;
+}
+
+.introtext h1 {
+    text-align: center;
+    font-family: MiSans;
+    margin-top: 2rem;
+}
+
+.introtext p {
+    margin-top: 2rem;
+    font-family: Thonburi;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.introCon {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.introbtn {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+}
+
+.introbtn li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #0f0f0f;
+    border-radius: 2px;
+    color: #e0ffd1;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    max-width: 320px;
+    margin: 0 auto;
+    font-family: SysThai;
+    font-size: 20px;
+}
+
+.introbtn li a:active {
+    scale: 90%;
+    filter: blur(5px);
+}
+
+#First {
+    margin-bottom: 1.1rem;
+}

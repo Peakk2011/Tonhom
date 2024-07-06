@@ -1,0 +1,34 @@
+@font-face {
+    font-family: System;
+    src: url(./Font/SegoeUIVF.ttf);
+}
+
+@font-face {
+    font-family: SysThai;
+    src: url(./Font/PK\ Maehongson\ Medium.otf);
+}
+
+@font-face {
+    font-family: Cartoon;
+    src: url(./Font/Arabica.otf);
+}
+
+@font-face {
+    font-family: MiSans;
+    src: url(./Font/MiSansThai.otf);
+}
+
+@font-face {
+    font-family: Sfpro;
+    src: url(./Font/SF-Pro-Display-Semibold.otf);
+}
+
+@font-face {
+    font-family: Thonburi;
+    src: url(./Font/SFThonburi-Regular.ttf);
+}
+
+@font-face {
+    font-family: ThonSemi;
+    src: url(./Font/SFThonburi-Semibold.ttf);
+}
