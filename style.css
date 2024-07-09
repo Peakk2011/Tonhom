@@ -223,3 +223,90 @@ nav {
 #First {
     margin-bottom: 1.1rem;
 }
+
+.GiftFor {
+    height: 100vh;
+    background: url(./img/Walls.jpg);
+}
+
+.GiftBGFOR {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/imagination-5153711.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: 0;
+    filter: brightness(20%);
+}
+
+
+.GiftForText h1 {
+    color: #ffffe9;
+    font-family: SysThai;
+    font-weight: 400;
+    z-index: 2;
+    margin-top: 1rem;
+}
+
+.GiftForText ion-icon {
+    color: #ffffe9;
+    font-size: 100px;
+    /* mix-blend-mode: darken; */
+}
+
+.GiftForCOPY {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GiftForText {
+    position: absolute;
+    z-index: 3;
+    /* mix-blend-mode: difference; */
+}
+
+.WantTo {
+    height: 100vh;
+    background: url(./img/PosterPrint.jpg);
+}
+
+.WantToBG {
+    height: 100vh;
+    width: 100%;
+    /* background: url(./img/hand-5786369.png) no-repeat; */
+    background-position: -70px bottom;
+    background-size: 140%;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: 4;
+}
+
+.WantToBGCOPY {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/clouds.png) no-repeat;
+    background-position: bottom;
+    background-size: 140%;
+    position: absolute;
+    background-attachment: fixed; 
+    z-index: 3;
+    opacity: 55%;
+}
+
+.WantToBGCOPY2 {
+    height: 100vh;
+    width: 100%;
+    background: url(./img/mountainView.png) no-repeat;
+    background-position: 0 120px;
+    background-size: 140%;
+    position: absolute;
+    z-index: 4;
+    /* background-attachment: fixed;  */
+}
