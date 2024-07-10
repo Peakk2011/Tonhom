@@ -46,8 +46,8 @@ function onMouseDown() {
         setTimeout(function () {
             BGFouc.style.display = "none";
         }, 500);
+        document.removeEventListener('mousemove', onMouseDown);
     }, 300);
-    document.removeEventListener('mousemove', onMouseDown);
 }
 
 // Gift Click 
@@ -125,3 +125,6 @@ ReasonClose.addEventListener ("click",() => {
         BgExitReason.style.display = "none";
     }, 400);
 }) 
+
+// gift for tonhom
+
